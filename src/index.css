@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  background:#446793;
+  color: #fff;
+}
+.text-center{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 50px auto;
+}
+.container{
+  width: 60%;
+  margin:10% auto
+  
+}
+/* media screen size  */
+
+@media (max-width:991px) {
+.container{
+width: 90%;
+}
+span, input, p {
+  font-size: 15px !important;
+}
+}
+.list_item{
+  background-color: #fff;
+  color:#446793;
+  width: 100%;
+}
+.list_item p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+.list_item span{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 0;
+  border:.3px solid #ddd
+}
+.list_item span.title{
+  background: #2ebe;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.list_item span.name,
+form input[type=text] {
+width: 60%;
+}
+.list_item span.age,
+form input[type=number] {
+width: 30%;
+}
+.list_item span.action,
+form input[type=submit] {
+width: 10%;
+}
+.list_item span.icon{
+  cursor: pointer;
+  color: #f00;
+  font-size: 20px;
+  font-weight: bold;
+}
+form input{
+  padding: 10px;
+  background:#ebebeb;
+  border:transparent;
+  border:.3px solid #ddd;
+  color:  #2ebe;
+  text-align: center;
+  font-size: 18px;
+}
+form input[type=submit]{
+  cursor: pointer;
+  background:#2ebe;
+  border:.3px solid #2ebe;
+  color: #fff;
+
+}
+
+.color{
+  background-color: red;
+}
+/* end style */
